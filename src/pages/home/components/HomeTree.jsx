@@ -170,7 +170,7 @@ const HomeTree = () => {
     } else if (typeId === 4) {
       const edited = editNode(nodes, selectedId, data1);
       setEdited(edited);
-      setNodes([]);
+      setNodes(edited);
       setFamilyMember(false);
     }
   };
